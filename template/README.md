@@ -29,9 +29,11 @@ npm run lint
 ### SCSS 全局变量，mixin引入
 - 由于每次手动引入全局变量和mixin太麻烦了，将他们设置为全局引入
 - 再去vscode上下个 **SCSS IntelliSense** 插件配合使用，会有代码提示，便于提高开发效率
-```js
-vue.config.js中全局引入设置
-看自己package.json中有哪个loader就用哪个
+
+
+```javascript
+// vue.config.js中全局引入设置
+// 看自己package.json中有哪个loader就用哪个
 
 module.exports = {
   css: {
@@ -47,8 +49,10 @@ module.exports = {
   }
 }
 ```
+
+
 ### 请求方式说明
-```js
+```javascript
 import a from '@/api/a'
 import b from '@/api/b'
 
