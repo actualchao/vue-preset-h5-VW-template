@@ -52,8 +52,10 @@ module.exports = {
   }
 }
 ```
+
+
 ### 请求方式说明
-```js
+```javascript
 import a from '@/api/a'
 import b from '@/api/b'
 
